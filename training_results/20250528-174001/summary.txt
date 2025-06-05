@@ -1,0 +1,25 @@
+训练摘要
+==============================
+数据集: plantvillage_processed
+训练样本数: 43429
+测试样本数: 10876
+类别数: 38
+最佳测试准确率: 0.9174
+
+训练配置
+模型: MobileNetV2
+优化器: Adam (lr=0.0001)
+批次大小: 16
+训练轮数: 10
+
+训练结果
+Epoch 1: Train Loss=2.0178, Acc=0.5685 | Test Loss=0.9168, Acc=0.8367
+Epoch 2: Train Loss=1.1158, Acc=0.7318 | Test Loss=0.5750, Acc=0.8705
+Epoch 3: Train Loss=0.9102, Acc=0.7632 | Test Loss=0.4637, Acc=0.8917
+Epoch 4: Train Loss=0.8242, Acc=0.7760 | Test Loss=0.3998, Acc=0.8959
+Epoch 5: Train Loss=0.7763, Acc=0.7845 | Test Loss=0.3817, Acc=0.8979
+Epoch 6: Train Loss=0.7434, Acc=0.7877 | Test Loss=0.3325, Acc=0.9070
+Epoch 7: Train Loss=0.7056, Acc=0.7948 | Test Loss=0.3166, Acc=0.9102
+Epoch 8: Train Loss=0.6927, Acc=0.7968 | Test Loss=0.2866, Acc=0.9174
+Epoch 9: Train Loss=0.6831, Acc=0.8010 | Test Loss=0.3111, Acc=0.9110
+Epoch 10: Train Loss=0.6560, Acc=0.8081 | Test Loss=0.2932, Acc=0.9164
